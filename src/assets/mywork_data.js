@@ -2,7 +2,7 @@ import sertif1 from '../assets/Magang.jpg'
 import sertif2 from '../assets/PMM.jpg'
 import sertif3 from '../assets/Digitalent.jpg'
 import sertif4 from '../assets/TOEFL.jpg'
-import sertif5 from '../assets/Excell.jpg'
+import sertif5 from '../assets/EXCELL.jpg'
 import sertif6 from '../assets/Figma.jpg'
 
 const mywork_data = [
