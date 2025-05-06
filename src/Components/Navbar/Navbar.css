@@ -1,0 +1,141 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.navbar img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active-underline {
+    width: 30px;
+    height: 4px;
+    background-color: #B923E1;
+    border-radius: 2px;
+    margin-top: 3px;
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-mob-close {
+    display: none;
+}
+
+.nav-mob-open {
+    display: none;
+}
+
+@media (max-width: 1050px) {
+    .navbar {
+        margin: 50px 100px;
+    }
+
+    .nav-menu {
+        gap: 40px;
+        font-size: 18px;
+    }
+
+    .nav-connect {
+        padding: 14px 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        margin: 50px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-connect {
+        display: none;
+    }
+
+    .nav-mob-open {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+        margin-left: auto;
+    }
+
+    .nav-items {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #0c0c0c;
+        flex-direction: column;
+        width: 200px;
+        height: 100vh;
+        align-items: start;
+        padding: 30px 20px;
+        z-index: 99;
+        transition: right 0.3s ease-in;
+    }
+
+    .nav-mob-close {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        background-color: #1f0016;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: right 0.4s ease-in-out;
+        z-index: 2;
+    }
+
+    .nav-menu li {
+        font-size: 22px;
+        padding: 10px 0;
+    }
+}
