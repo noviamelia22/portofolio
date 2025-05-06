@@ -34,7 +34,7 @@ const App = () => {
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
-          <Route path="/webdev" element={<WebDev />} />
+          <Route path="/webdevelop" element={<WebDev />} />
           <Route path="/uiux" element={<Uiux />} />
           <Route path="/dataanalyst" element={<Dataanalyst />} />
         </Routes>
