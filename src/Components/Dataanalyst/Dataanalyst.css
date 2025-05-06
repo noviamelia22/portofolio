@@ -85,17 +85,17 @@
 
 
 @media (max-width: 1050px) {
-    .uiux {
+    .data {
         margin: 50px 100px;
         gap: 60px;
     }
 
-    .uiux-title h1 {
+    .data-title h1 {
         font-size: 60px;
         padding: 0 20px;
     }
 
-    .uiux-title img {
+    .data-title img {
         width: 90px;
         top: 20px;
     }
@@ -113,17 +113,17 @@
 
 
 @media (max-width: 768px) {
-    .uiux {
+    .data {
         margin: 50px 30px;
         gap: 50px;
     }
 
-    .uiux-title h1 {
+    .data-title h1 {
         font-size: 36px;
         padding: 0 10px;
     }
 
-    .uiux-title img {
+    .data-title img {
         width: 70px;
         top: 15px;
     }

@@ -26,7 +26,7 @@ const WebDev = () => {
                 <Navbar />
                 <div className='web-dev'>
                     <div className="web-dev-title">
-                        <h1>Web development</h1>
+                        <h1>Web develop</h1>
                         <img src={webdev_logo} alt="" />
                     </div>
                     <div className='project-section'>
