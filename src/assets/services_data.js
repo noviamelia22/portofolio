@@ -5,7 +5,7 @@ const Services_Data = [
       s_no: "01",
       s_name: "Web Development",
       s_desc: "Building responsive and interactive websites using React.js and Laravel, ensuring a smooth user experience.",
-      link: "/webdev"
+      link: "/webdevelop"
     },
     {
       s_no: "02",
