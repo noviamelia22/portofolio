@@ -51,25 +51,16 @@ const Contact = () => {
                         </div>
                         <div className="contact-detail">
                             <i className="fab fa-github"></i>
-                            <a
-                                href="https://github.com/noviamelia22"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="contact-link"
-                            >
-                                noviamelia22
-                            </a>
-                        </div>
-                        <div className="contact-detail">
-                            <i className="fab fa-linkedin"></i>
-                            <a
-                                href="https://linkedin.com/in/novitanti22"
-                                target="_blank"
-                                rel="noreferrer"
-                                className="contact-link"
-                            >
-                                novitanti22
-                            </a>
+                            <p>
+                                <a
+                                    href="https://github.com/noviamelia22"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="contact-link"
+                                >
+                                    noviamelia22
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
