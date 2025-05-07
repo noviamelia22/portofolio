@@ -250,6 +250,9 @@
     .contact-detail p {
         font-size: 14px;
     }
+    .contact-detail a {
+        font-size: 14px;
+    }
 
     .contact-right {
         gap: 16px;
