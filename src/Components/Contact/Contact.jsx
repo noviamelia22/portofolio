@@ -47,7 +47,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-detail">
                             <i className="fas fa-map-marker-alt"></i>
-                            <p>Kediri, Jawa</p>
+                            <p>Kediri, Jawa Timur</p>
                         </div>
                         <div className="contact-detail">
                             <i className="fab fa-github"></i>
@@ -59,6 +59,19 @@ const Contact = () => {
                                     className="contact-link"
                                 >
                                     noviamelia22
+                                </a>
+                            </p>
+                        </div>
+                        <div className="contact-detail">
+                            <i className="fab fa-linkedin"></i>
+                            <p>
+                                <a
+                                    href="https://linkedin.com/in/novitanti22"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="contact-link"
+                                >
+                                    novitanti22
                                 </a>
                             </p>
                         </div>
