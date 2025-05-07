@@ -47,7 +47,7 @@ const Contact = () => {
                         </div>
                         <div className="contact-detail">
                             <i className="fas fa-map-marker-alt"></i>
-                            <p>Kediri, Jawa Timur</p>
+                            <p>Kediri, Jawa</p>
                         </div>
                         <div className="contact-detail">
                             <i className="fab fa-github"></i>
