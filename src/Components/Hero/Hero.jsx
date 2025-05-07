@@ -12,7 +12,7 @@ const Hero = () => {
                 Skilled in using React.js, Laravel, and Figma to build and design user-friendly web applications.</p>
             <div className="hero-action">
                 <AnchorLink className='anchor-link' offset={50} href="#contact"><div className="hero-connect">Connect With Me</div></AnchorLink>
-                <a href="/Novi Amelia Kristanti_CV.pdf" download className="hero-resume">My resume</a>
+                <a href="" download className="hero-resume">My resume</a>
             </div>
         </div>
     )
