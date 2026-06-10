@@ -15,8 +15,8 @@ const Services_Data = [
     },
     {
       s_no: "03",
-      s_name: "Data Analysis",
-      s_desc: "Performing data analysis using Python, including sentiment analysis and fruit maturity classification based on machine learning techniques.",
+      s_name: "Data Analysis & Excel",
+      s_desc: "Creating reports, dashboards, and data summaries using Excel functions, Pivot Tables, Charts, and Data Validation.",
       link: "dataanalyst"
     },    
   ];

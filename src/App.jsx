@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
+import Experience from './Components/Experience/Experience';
 import Services from './Components/Services/Services';
 import MyWork from './Components/MyWork/MyWork';
 import Contact from './Components/Contact/Contact';
@@ -12,12 +13,14 @@ import { AnimatePresence } from 'framer-motion';
 import ScrollToTop from './Components/ScrollToTop';
 import Uiux from './Components/Uiux/Uiux';
 import Dataanalyst from './Components/Dataanalyst/Dataanalyst';
+import ScrollToHash from './Components/ScrollToHash';
 
 const Home = () => (
   <div className="main-wrapper">
     <Navbar />
     <Hero />
     <About />
+    <Experience />
     <Services />
     <MyWork />
     <Contact />
@@ -42,5 +45,6 @@ const App = () => {
     </>
   );
 };
+
 
 export default App;

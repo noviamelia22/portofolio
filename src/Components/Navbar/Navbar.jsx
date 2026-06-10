@@ -35,6 +35,7 @@ const Navbar = () => {
 
         <li onClick={() => handleClick("home")}>Home {menu === "home" && <div className="active-underline"></div>}</li>
         <li onClick={() => handleClick("about")}>About Me {menu === "about" && <div className="active-underline"></div>}</li>
+        <li onClick={() => handleClick("experience")}>Experience {menu === "experience" && <div className="active-underline"></div>}</li>
         <li onClick={() => handleClick("portofolio")}>Portofolio {menu === "portofolio" && <div className="active-underline"></div>}</li>
         <li onClick={() => handleClick("certificate")}>Certificate {menu === "certificate" && <div className="active-underline"></div>}</li>
         <li onClick={() => handleClick("contact")}>Contact {menu === "contact" && <div className="active-underline"></div>}</li>

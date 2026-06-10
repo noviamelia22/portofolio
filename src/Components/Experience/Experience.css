@@ -1,0 +1,181 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+
+    scroll-margin-top: 120px;
+  }
+  
+  .experience-title {
+    position: relative;
+  }
+  
+  .experience-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+
+  .experience-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 120px;
+    height: auto;
+    top: 30px;
+}
+  
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .experience-card {
+    display: flex;
+    gap: 50px;
+    background: #161513;
+    border: 1px solid #2a2a2a;
+    border-radius: 24px;
+    padding: 45px;
+    transition: 0.3s;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+    border: 1px solid #b923e1;
+  }
+  
+  .experience-year {
+    min-width: 220px;
+  }
+  
+  .experience-year h2 {
+    color: #b923e1;
+    font-size: 34px;
+  }
+  
+  .experience-content h2 {
+    font-size: 42px;
+    margin-bottom: 12px;
+  }
+  
+  .experience-content h3 {
+    font-size: 28px;
+    color: #ccc;
+    margin-bottom: 12px;
+  }
+  
+  .company-type {
+    color: #b923e1;
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  
+  .experience-content ul {
+    padding-left: 28px;
+    margin-bottom: 28px;
+  }
+  
+  .experience-content ul li {
+    margin-bottom: 14px;
+    line-height: 1.8;
+    color: #d4d4d4;
+    font-size: 18px;
+  }
+  
+  .experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .experience-skills span {
+    padding: 10px 22px;
+    border-radius: 30px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .experience-buttons {
+    display: flex;
+    gap: 18px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .view-btn,
+  .download-btn {
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .view-btn {
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    color: white;
+  }
+  
+  .download-btn {
+    border: 1px solid #B923E1;
+    color: white;
+  }
+  
+  .view-btn:hover,
+  .download-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  @media(max-width:768px){
+  
+    .experience {
+      padding: 70px 5%;
+    }
+  
+    .experience-title h1 {
+      font-size: 48px;
+    }
+  
+    .experience-card {
+      flex-direction: column;
+      gap: 25px;
+      padding: 30px;
+    }
+  
+    .experience-year h2 {
+      font-size: 28px;
+    }
+  
+    .experience-content h2 {
+      font-size: 32px;
+    }
+  
+    .experience-content h3 {
+      font-size: 24px;
+    }
+  
+    .company-type {
+      font-size: 20px;
+    }
+  
+    .experience-content ul li {
+      font-size: 18px;
+    }
+  
+    .experience-skills span {
+      font-size: 16px;
+    }
+  
+    .view-btn,
+    .download-btn {
+      font-size: 16px;
+    }
+  }

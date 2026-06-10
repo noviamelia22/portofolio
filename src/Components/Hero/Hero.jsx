@@ -7,9 +7,10 @@ const Hero = () => {
     return (
         <div id='home' className='hero'>
             <img src={profile_img} alt="" />
-            <h1><span>I'M Novi Amelia,</span> frontend & ui/ux design</h1>
-            <p>I am an Information Systems graduate with hands-on experience in front-end development and UI/UX design.
-                Skilled in using React.js, Laravel, and Figma to build and design user-friendly web applications.</p>
+            <h1><span>I'M Novi,</span> IT Functional & Administration Support</h1>
+            <p>Information Systems graduate with experience in operational administration, ERP support, system documentation, inventory management, and operational IT support. 
+                Experienced in using ERP Dynamics 365 Business Central, Microsoft Office, and coordinating with various divisions to support company operations.
+            </p>
             <div className="hero-action">
                 <AnchorLink className='anchor-link' offset={50} href="#contact"><div className="hero-connect">Connect With Me</div></AnchorLink>
                 <a href="/Novi Amelia Kristanti_CV.pdf" download className="hero-resume">My resume</a>

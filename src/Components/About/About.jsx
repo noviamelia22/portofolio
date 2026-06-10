@@ -16,32 +16,32 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I am Novi Amelia Kristanti, an Information Systems graduate with a strong interest in web development and UI/UX design.
-                            I have hands-on experience creating web applications using Laravel and designing user interfaces with Figma.</p>
-                        <p> I completed internships as a Software Engineer at PT Jababeka Infrastruktur and as a UI/UX Designer at Flow Byte Digital.
-                            I also joined the Indonesian Student Exchange Program and actively contributed to campus organizations.</p>
+                        <p>I am Novi Amelia Kristanti, an Information Systems graduate with experience as an IT Functional in a feedmill and poultry company. 
+                            I have experience in operational administration, ERP support, system documentation, inventory management, and operational IT support.</p>
+                        <p> Experienced in using ERP Dynamics 365 Business Central, Microsoft Office, and coordinating with various divisions to support daily company operations. 
+                            I am detail-oriented, disciplined, adaptable, and able to work both independently and in teams.</p>
                     </div>
                     <div className="about-skills">
-                        <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "70%" }} /></div>
-                        <div className="about-skill"><p>React Js</p><hr style={{ width: "50%" }} /></div>
-                        <div className="about-skill"><p>JavaScript</p><hr style={{ width: "50%" }} /></div>
-                        <div className="about-skill"><p>Python</p><hr style={{ width: "50%" }} /></div>
-                        <div className="about-skill"><p>Figma</p><hr style={{ width: "80%" }} /></div>
+                        <div className="about-skill"><p>Excel</p><hr style={{ width: "70%" }} /></div>
+                        <div className="about-skill"><p>Administration</p><hr style={{ width: "90%" }} /></div>
+                        <div className="about-skill"><p>Inventory</p><hr style={{ width: "85%" }} /></div>
+                        <div className="about-skill"><p>Coordination</p><hr style={{ width: "95%" }} /></div>
+                        <div className="about-skill"><p>ERP System</p><hr style={{ width: "80%" }} /></div>
                     </div>
                 </div>
             </div>
             <div className="about-achievments">
                 <div className="about-achievment">
-                    <h1>3+</h1>
-                    <p>WEB PROJECTS</p>
+                    <h1>1</h1>
+                    <p>Year Experience</p>
                 </div>
                 <div className="about-achievment">
-                    <h1>2+</h1>
-                    <p>FIGMA UI/UX DESIGNS</p>
+                    <h1>ERP</h1>
+                    <p>DYNAMICS 365 BC</p>
                 </div>
                 <div className="about-achievment">
-                    <h1>15+</h1>
-                    <p>BUGS FIXED</p>
+                    <h1>85+</h1>
+                    <p>OPERATIONAL DOCUMENTS</p>
                 </div>
             </div>
 

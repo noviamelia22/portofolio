@@ -2,48 +2,67 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 0 170px;
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.navbar img {
+    height: 55px;
+    width: auto;
+    flex-shrink: 0;
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
-    font-size: 20px;
-}
-
-.nav-connect {
-    padding: 20px 40px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-    font-size: 22px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.nav-connect:hover {
-    transform: scale(1.05);
-}
-
-.navbar img {
-    height: 50px;
-    width: auto;
+    gap: 45px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .nav-menu li {
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
+}
+
+.nav-menu li:hover {
+    color: #B923E1;
 }
 
 .active-underline {
     width: 30px;
     height: 4px;
-    background-color: #B923E1;
-    border-radius: 2px;
-    margin-top: 3px;
+    background: #B923E1;
+    border-radius: 10px;
+    margin-top: 4px;
+}
+
+.nav-connect {
+    padding: 16px 32px;
+    border-radius: 50px;
+    background: linear-gradient(
+        267deg,
+        #DA7C25 0.36%,
+        #B923E1 102.06%
+    );
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-connect:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(185, 35, 225, 0.35);
 }
 
 .anchor-link {
@@ -59,28 +78,57 @@
     display: none;
 }
 
-@media (max-width: 1050px) {
+/* LAPTOP */
+
+@media (max-width: 1400px) {
+
     .navbar {
-        margin: 50px 100px;
+        margin: 0 80px;
     }
 
     .nav-menu {
-        gap: 40px;
-        font-size: 18px;
+        gap: 35px;
+        font-size: 17px;
     }
 
     .nav-connect {
-        padding: 14px 30px;
-        font-size: 18px;
+        padding: 14px 26px;
+        font-size: 16px;
     }
+
 }
 
-@media (max-width: 768px) {
+/* TABLET */
+
+@media (max-width: 1050px) {
+
     .navbar {
-        margin: 50px 30px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        margin: 0 50px;
+    }
+
+    .nav-menu {
+        gap: 25px;
+        font-size: 16px;
+    }
+
+    .nav-connect {
+        padding: 12px 22px;
+        font-size: 15px;
+    }
+
+    .navbar img {
+        height: 50px;
+    }
+
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        margin: 0 25px;
+        padding: 20px 0;
     }
 
     .nav-connect {
@@ -89,53 +137,46 @@
 
     .nav-mob-open {
         display: block;
-        font-size: 30px;
+        width: 30px !important;
+        height: 30px !important;
         cursor: pointer;
-        color: white;
-        margin-left: auto;
-    }
-
-    .nav-items {
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background-color: #0c0c0c;
-        flex-direction: column;
-        width: 200px;
-        height: 100vh;
-        align-items: start;
-        padding: 30px 20px;
-        z-index: 99;
-        transition: right 0.3s ease-in;
-    }
-
-    .nav-mob-close {
-        display: block;
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        font-size: 25px;
-        color: white;
-        cursor: pointer;
+        z-index: 1001;
     }
 
     .nav-menu {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 80%;
+        width: 280px;
         height: 100vh;
-        background-color: #1f0016;
+        background: #111111;
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        gap: 30px;
-        transition: right 0.4s ease-in-out;
-        z-index: 2;
+        align-items: flex-start;
+        padding-left: 50px;
+        gap: 35px;
+        transition: right 0.4s ease;
+        z-index: 999;
     }
 
     .nav-menu li {
         font-size: 22px;
-        padding: 10px 0;
+        align-items: flex-start;
     }
+
+    .nav-mob-close {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        width: 25px !important;
+        height: 25px !important;
+        cursor: pointer;
+    }
+
+    .active-underline {
+        margin-top: 6px;
+    }
+
 }

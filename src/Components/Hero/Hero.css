@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
-
+    padding-top: 40px;
 }
 .hero img {
     height: 250px;       /* Ukuran kecil, sesuaikan sesuai kebutuhan */
